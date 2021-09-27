@@ -28,24 +28,24 @@ describe("Call LogDB", function() {
 
       // arrays of key / values
       [
-        'poolName',
-        'Some Pool Name'
+        'name',
+        'John Doe'
       ],
       [
-        'poolDescription',
-        'The pool will pull money out of the air with magic code.'
-      ],
-      [
-        'company',
-        'Alameda Research'
+        'companyName',
+        'Acme Research, LLC'
       ],
       [
         'twitter',
-        '@alameda'
+        '@acmeresearch'
       ],
       [
-        'poolDescription',
-        'The pool will pull money out of the air with magic code.'
+        'website',
+        'https://acmeresearch.com'
+      ],
+      [
+        'aboutCompany',
+        'Acme Research will pull money out of the air with magic code.'
       ]
     ]
 
