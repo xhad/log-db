@@ -10,6 +10,7 @@ module.exports = {
     currency: 'USD',
     gasPrice: 21
   },
+  solidity: '0.7.3',
   paths: {
     sources: './contracts',
     artifacts: './artifacts',

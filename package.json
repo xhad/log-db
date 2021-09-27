@@ -3,8 +3,8 @@
   "scripts": {
     "node": "hardhat node",
     "compile": "hardhat compile",
-    "deploy": "hardhat run ./scripts/event-store.js",
-    "test": "hardhat test ./test/event-store.test.js"
+    "deploy": "hardhat run ./scripts/deploy.js",
+    "test": "hardhat test ./test/log-db.test.js"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
